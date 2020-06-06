@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Prova - Internet das Coisas - Arduino</title>
+		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/plugins.min.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="layout">
+			<header class="header header-center undefined">
+				<div class="container-fluid">
+					<div class="inner-header"><img class="brand-dark" src="assets/images/logoArduino.png" width="170px" alt=""></div>
+				</div>
+			</header>
+			<div class="wrapper">
+				<img src="assets/images/backard.jpg">
+				<section class="module">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7">
+								<div class="accordion panel-group m-b-60" id="accordion">
+									<div class="card">
+										<div class="card-header"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false">Topo do código</a></div>
+										<div class="collapse" id="collapse1">
+											<div class="card-body">
+												<p>Nessa parte do código estou definindo as variáveis, e definindo também as posições onde estão ligadas e o valor inicial daquela seguinte variável.</p>
+												<p>Em baixo do código estou definindo as temperaturas ideais(máximo e mínimo) corretas para manter o ambiente com uma temperatura ideal.</p>
+												<img src="assets/images/topo.jpg">
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false">Setup</a></div>
+										<div class="collapse" id="collapse2">
+											<div class="card-body">
+												<p>No setup eu to estabelecendo a comunicação dos pinos com o código, quando inicio a simulação.</p>
+												<img src="assets/images/setup.jpg">
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false">Loop</a></div>
+										<div class="collapse" id="collapse3">
+											<div class="card-body">
+												<p>Estou criando o Loop para executar os comandos feitos em funções, com continuidade</p>
+												<img src="assets/images/loop.jpg">
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false">Botões</a></div>
+										<div class="collapse" id="collapse4">
+											<div class="card-body">
+												<p><b>Botão 1: </b>No botão 1, eu defino a temperatura mínima e máxima e também faço o cálculo, para quando obtiver o resultado, exibir no LCD para o usuário.</p>
+												<img src="assets/images/botao1.jpg">
+												<br>
+												<p><b>Botão 2: </b>No botão 2, eu defino para captar a luz do ambiente e com isso vai mudando a intensidade de acordo com o tanto de luz em que está recebendo.</p></p>
+												<img src="assets/images/botao2.jpg">
+												<br>
+												<p><b>Botão 3: </b>No botão 3, eu defino que quando o detector de presença detectar alguma pessoa no raio de alcance, eu faço o set para contabilizar +1 na variável em que criei na parte de cima do código. (Variável foi definida para iniciar no 0).</p>
+												<img src="assets/images/botao3.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p><img src="assets/images/circuito.jpg" alt=""></p>
+								<p>Essa é a imagem de todo o meu circuito, mostrando todas as ligações para executar o código.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<footer class="footer">
+					<div class="footer-copyright">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="text-center"><span class="copyright">© 2020 - Todos os direitos reservados - Pedro Henrique Vasconcelos</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
+		</div>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/custom.min.js"></script>
+</html>
